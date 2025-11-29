@@ -1,11 +1,18 @@
 # Build artifacts
 bin/
 obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.FileListAbsolute.txt
 
 # Test results
 TestResults/
 *.trx
 *.log
+*.coverage
+*.testresult.json
 
 # User-specific files
 *.user
@@ -16,8 +23,13 @@ TestResults/
 # Publish output
 /app/publish/
 publish/
+*.zip
 
-# Docker
+# Docker & packaging
 *.tar
 *.gz
-.env
+*.env
+
+# Temporary and lock files
+*.lock.json
+*.tmp
