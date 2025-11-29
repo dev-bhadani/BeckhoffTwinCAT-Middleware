@@ -1,0 +1,23 @@
+# Build artifacts
+bin/
+obj/
+
+# Test results
+TestResults/
+*.trx
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.DS_Store
+.vscode/
+
+# Publish output
+/app/publish/
+publish/
+
+# Docker
+*.tar
+*.gz
+.env
